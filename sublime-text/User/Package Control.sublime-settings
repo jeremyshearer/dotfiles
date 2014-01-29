@@ -1,7 +1,19 @@
 {
 	"installed_packages":
 	[
+		"Chrome Refresh",
+		"CoffeeScript",
+		"ColdFusion",
+		"CSScomb",
+		"FileDiffs",
+		"HtmlTidy",
+		"Package Control",
+		"Rails Partial",
 		"RailsCasts Colour Scheme",
+		"Ruby Coverage",
+		"Ruby on Rails snippets",
+		"RubyTest",
+		"SCSS",
 		"Theme - Soda"
 	]
 }
