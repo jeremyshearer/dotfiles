@@ -1,12 +1,14 @@
 {
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"Chrome Refresh",
 		"CoffeeScript",
 		"ColdFusion",
 		"CSScomb",
 		"FileDiffs",
 		"HtmlTidy",
+		"Javatar",
 		"Package Control",
 		"Rails Partial",
 		"RailsCasts Colour Scheme",

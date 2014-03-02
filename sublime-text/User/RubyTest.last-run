@@ -1,0 +1,4 @@
+{
+	"last_test_run": "~/.rvm/bin/rvm-auto-ruby -S rspec spec/services/blog_service_spec.rb",
+	"last_test_working_dir": "/private/var/webapps/lampo/dr-root"
+}
