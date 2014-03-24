@@ -1,0 +1,6 @@
+[submodule "git-prompt"]
+	path = git-prompt
+	url = git@github.com:lvv/git-prompt.git
+[submodule "powerline-shell"]
+	path = powerline-shell
+	url = git@github.com:milkbikis/powerline-shell.git

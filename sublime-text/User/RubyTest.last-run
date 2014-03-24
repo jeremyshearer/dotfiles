@@ -1,4 +1,4 @@
 {
-	"last_test_run": "~/.rvm/bin/rvm-auto-ruby -S rspec spec/services/blog_service_spec.rb",
-	"last_test_working_dir": "/private/var/webapps/lampo/dr-root"
+	"last_test_run": "~/.rvm/bin/rvm-auto-ruby -S rspec spec/models/user_spec.rb -l6",
+	"last_test_working_dir": "/private/var/webapps/alco/alco_store_ruby"
 }

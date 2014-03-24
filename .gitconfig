@@ -1,0 +1,14 @@
+[user]
+  name = Jeremy Shearer
+  email = mohicanlove@gmail.com
+[core]
+  editor = subl --new-window --wait
+[push]
+  default = simple
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+  ui = auto
+[alias]
+	lol = log --graph --decorate --oneline --all
