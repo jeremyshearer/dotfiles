@@ -5,11 +5,9 @@
 		"Chrome Refresh",
 		"CoffeeScript",
 		"ColdFusion",
-		"CSScomb",
 		"FileDiffs",
+		"HTML-CSS-JS Prettify",
 		"HtmlTidy",
-		"Javatar",
-		"Markdown Preview",
 		"Package Control",
 		"Rails Partial",
 		"RailsCasts Colour Scheme",
@@ -17,6 +15,7 @@
 		"Ruby on Rails snippets",
 		"RubyTest",
 		"SCSS",
+		"SublimeLinter-html-tidy",
 		"Theme - Soda"
 	]
 }
