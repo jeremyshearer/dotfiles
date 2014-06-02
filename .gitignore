@@ -1,4 +1,5 @@
 .DS_Store
-sublime-text/Packages/User/Package Control.cache
-sublime-text/Packages/User/Package Control.last-run
-sublime-text/User/RubyTest.last-run
+*.cache
+*.last-run
+linters/*
+.SublimeREPLHistory/*
