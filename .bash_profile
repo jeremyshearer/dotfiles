@@ -16,3 +16,5 @@ function _update_ps1() {
 export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 
 export JAVA_HOME=$(/usr/libexec/java_home)
+
+alias svnfstat='svn st --ignore-externals | grep -v X'
