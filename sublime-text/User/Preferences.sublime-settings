@@ -33,7 +33,9 @@
 		".git",
 		".hg",
 		"CVS",
-		".sass-cache"
+		".sass-cache",
+		".cache",
+		"tmp/cache"
 	],
 	"font_face": "Menlo",
 	"font_options":
