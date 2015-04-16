@@ -3,6 +3,7 @@
   email = mohicanlove@gmail.com
 [core]
   editor = subl --new-window --wait
+	excludesfile = /Users/mohican/.gitignore
 [push]
   default = simple
 [color]

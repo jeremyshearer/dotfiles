@@ -5,3 +5,14 @@ linters/*
 .SublimeREPLHistory/*
 sublime-text/User/Package Control.*
 sublime-text/User/RubyTest.last-run
+bin
+*.sw[nop]
+.bundle
+.env
+db/*.sqlite3
+log/*.log
+rerun.txt
+tags
+!tags/
+tmp/**/*
+!tmp/cache/.keep
