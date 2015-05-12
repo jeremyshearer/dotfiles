@@ -15,10 +15,11 @@ set backspace=2
 set history=50
 set clipboard=unnamed
 
-set wildignore+=*/tmp/*
+set wildignore+=*/tmp/*,*/WEB-INF/*
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
 let mapleader = ','
 
 map <Leader>t :call RunCurrentSpecFile()<CR>
