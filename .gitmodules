@@ -46,3 +46,6 @@
 [submodule ".vim/bundle/ack"]
 	path = .vim/bundle/ack
 	url = https://github.com/mileszs/ack.vim.git
+[submodule "intellij/intellij-colors-solarized"]
+	path = intellij/intellij-colors-solarized
+	url = git@github.com:jkaving/intellij-colors-solarized
