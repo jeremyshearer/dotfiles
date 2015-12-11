@@ -49,6 +49,11 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"Chrome Refresh",
+		"CoffeeScript",
+		"ColdFusion",
+		"HtmlTidy",
+		"Ruby Coverage",
 		"Vintage"
 	],
 	"remember_open_files": false,

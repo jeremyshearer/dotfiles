@@ -2,7 +2,7 @@
   name = Jeremy Shearer
   email = mohicanlove@gmail.com
 [core]
-  editor = subl --new-window --wait
+  editor = vim
 	excludesfile = /Users/mohican/.gitignore
 [push]
   default = simple

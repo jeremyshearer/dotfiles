@@ -4,3 +4,33 @@
 [submodule "powerline-shell"]
 	path = powerline-shell
 	url = git@github.com:milkbikis/powerline-shell.git
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = git@github.com:altercation/vim-colors-solarized
+[submodule ".vim/bundle/vim-nerdtree"]
+	path = .vim/bundle/vim-nerdtree
+	url = git@github.com:scrooloose/nerdtree
+[submodule ".vim/bundle/ruby-refactoring"]
+	path = .vim/bundle/ruby-refactoring
+	url = git@github.com:ecomba/vim-ruby-refactoring
+[submodule ".vim/bundle/endwise"]
+	path = .vim/bundle/endwise
+	url = git@github.com:tpope/vim-endwise
+[submodule ".vim/bundle/matchit"]
+	path = .vim/bundle/matchit
+	url = git@github.com:tmhedberg/matchit
+[submodule ".vim/bundle/better-whitespace"]
+	path = .vim/bundle/better-whitespace
+	url = git@github.com:ntpeters/vim-better-whitespace
+[submodule ".vim/bundle/vim-multiple-cursors"]
+	path = .vim/bundle/vim-multiple-cursors
+	url = git@github.com:terryma/vim-multiple-cursors
+[submodule ".vim/bundle/rubocop"]
+	path = .vim/bundle/rubocop
+	url = git@github.com:ngmy/vim-rubocop
+[submodule ".vim/bundle/vim-tmux-navigator"]
+	path = .vim/bundle/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator
+[submodule ".vim/bundle/vim-dispatch"]
+	path = .vim/bundle/vim-dispatch
+	url = git@github.com:tpope/vim-dispatch
