@@ -22,15 +22,27 @@
 [submodule ".vim/bundle/better-whitespace"]
 	path = .vim/bundle/better-whitespace
 	url = git@github.com:ntpeters/vim-better-whitespace
-[submodule ".vim/bundle/vim-multiple-cursors"]
-	path = .vim/bundle/vim-multiple-cursors
-	url = git@github.com:terryma/vim-multiple-cursors
 [submodule ".vim/bundle/rubocop"]
 	path = .vim/bundle/rubocop
 	url = git@github.com:ngmy/vim-rubocop
 [submodule ".vim/bundle/vim-tmux-navigator"]
 	path = .vim/bundle/vim-tmux-navigator
 	url = git@github.com:christoomey/vim-tmux-navigator
-[submodule ".vim/bundle/vim-dispatch"]
-	path = .vim/bundle/vim-dispatch
-	url = git@github.com:tpope/vim-dispatch
+[submodule ".vim/bundle/ctrlp"]
+	path = .vim/bundle/ctrlp
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule ".vim/bundle/nerdcommenter"]
+	path = .vim/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule ".vim/bundle/vim-rspec"]
+	path = .vim/bundle/vim-rspec
+	url = https://github.com/thoughtbot/vim-rspec.git
+[submodule ".vim/bundle/vim-rails"]
+	path = .vim/bundle/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "vim/bundle/syntastic"]
+	path = vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule ".vim/bundle/ack"]
+	path = .vim/bundle/ack
+	url = https://github.com/mileszs/ack.vim.git

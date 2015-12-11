@@ -3,7 +3,7 @@
   email = mohicanlove@gmail.com
 [core]
   editor = vim
-	excludesfile = /Users/mohican/.gitignore
+	excludesfile = ~/.gitignore
 [push]
   default = simple
 [color]
