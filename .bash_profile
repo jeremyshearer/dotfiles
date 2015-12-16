@@ -1,4 +1,3 @@
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" #
 export PATH="/usr/local/sbin:$PATH"
 export PATH=$PATH":$HOME/bin:$HOME/dotfiles/bin"
 
@@ -10,6 +9,7 @@ function _update_ps1() {
 
 export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 export JAVA_HOME=$(/usr/libexec/java_home)
+export M2_HOME="/usr/local/Cellar/maven/3.3.9/libexec"
 
 alias svnfstat='svn st --ignore-externals | grep -v X'
 

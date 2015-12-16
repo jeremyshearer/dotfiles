@@ -1,9 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/mohican/workspace/lampo/dr-contest'
-let g:netrw_dirhist_2='/Users/mohican/workspace/everydollar/suv'
-let g:netrw_dirhist_3='/Users/mohican/workspace/lampo/nicodemus-admin'
-let g:netrw_dirhist_4='/Users/mohican/workspace/everydollar/suv'
-let g:netrw_dirhist_5='/Users/mohican/workspace/upcase/extract-validator'
-let g:netrw_dirhist_6='/Users/mohican/workspace/everydollar/suv'
-let g:netrw_dirhist_7='/Users/mohican/workspace/lampo/dr-root'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/jeremy.shearer/dotfiles/.vim/bundle/colors'
+let g:netrw_dirhist_2='/Users/jeremy.shearer/dotfiles'
+let g:netrw_dirhist_3='/Users/jeremy.shearer/workspace/react-comments'
