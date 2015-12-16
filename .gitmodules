@@ -3,10 +3,7 @@
 	url = git@github.com:lvv/git-prompt.git
 [submodule "powerline-shell"]
 	path = powerline-shell
-	url = git@github.com:milkbikis/powerline-shell.git
-[submodule ".vim/bundle/vim-nerdtree"]
-	path = .vim/bundle/vim-nerdtree
-	url = git@github.com:scrooloose/nerdtree
+	url = git@github.com:milkbikis/powerline-shell
 [submodule ".vim/bundle/ruby-refactoring"]
 	path = .vim/bundle/ruby-refactoring
 	url = git@github.com:ecomba/vim-ruby-refactoring
@@ -37,9 +34,6 @@
 [submodule ".vim/bundle/vim-rails"]
 	path = .vim/bundle/vim-rails
 	url = https://github.com/tpope/vim-rails.git
-[submodule "vim/bundle/syntastic"]
-	path = vim/bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
 [submodule ".vim/bundle/ack"]
 	path = .vim/bundle/ack
 	url = https://github.com/mileszs/ack.vim.git
@@ -55,3 +49,6 @@
 [submodule ".vim/bundle/vim-javascript"]
 	path = .vim/bundle/vim-javascript
 	url = git@github.com:pangloss/vim-javascript
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = git@github.com:scrooloose/syntastic.git
