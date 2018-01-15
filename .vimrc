@@ -14,7 +14,7 @@ set nobackup
 set backspace=2
 set history=50
 set clipboard=unnamed
-set wildignore+=*/tmp/*,*/WEB-INF/*
+set wildignore+=*/tmp/*,*/WEB-INF/*,*/node_modules/*
 
 call plug#begin('~/.vim/pluged')
   Plug 'mattn/emmet-vim'

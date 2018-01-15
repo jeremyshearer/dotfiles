@@ -12,3 +12,11 @@ tmp/**/*
 .vim/.netrwhist
 .idea/
 .vim/pluged/
+.ruby-gemset
+.ruby-version
+node_modules/*
+.idea
+.envrc
+.iml
+logback.xml
+system_config.js
