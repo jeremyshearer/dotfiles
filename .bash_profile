@@ -1,15 +1,19 @@
-export PATH="./node_modules/.bin:/usr/local/sbin:/usr/local/bin:$PATH:$HOME/bin:$HOME/dotfiles/bin"
-
-source ~/dotfiles/.git-completion.sh
-
 function _update_ps1() {
  export PS1="$(powerline-shell $?)"
 }
 
-#export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-export HOMEBREW_GITHUB_API_TOKEN=17bfb291bc5aed7f15c5e25007eeb19e19d07cde
-export NVM_DIR="$HOME/.nvm"
+alias pg-start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+alias pg-stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
 
-. "$(brew --prefix nvm)/nvm.sh"
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+export HISTFILESIZE=-1
+
+export PATH="$HOME/.dotfiles/bin:$(yarn global bin):$HOME/.fastlane/bin:$HOME/.cargo/bin:/workspace/php/Gitify/:$PATH"
+export PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 eval "$(direnv hook bash)"
-eval "$(rbenv init -)"
+
+## Aliases
+alias cartboot='carthage bootstrap --platform iOS'
+export JAVA_HOME="$HOME/.jenv/versions/`jenv version-name`"
+
+alias tcr="dotnet test && commit -m || git reset --hard"

@@ -1,6 +1,5 @@
 .DS_Store
 *.cache
-bin
 *.sw[nop]
 .bundle
 .env
@@ -12,11 +11,11 @@ tmp/**/*
 .vim/.netrwhist
 .idea/
 .vim/pluged/
-.ruby-gemset
-.ruby-version
 node_modules/*
 .idea
-.envrc
 .iml
 logback.xml
-system_config.js
+yarn-error.log
+.python-version
+.idea/
+.env*.local

@@ -1,3 +1,9 @@
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
 syntax on
 filetype plugin indent on
 set nocompatible
@@ -15,8 +21,10 @@ set backspace=2
 set history=50
 set clipboard=unnamed
 set wildignore+=*/tmp/*,*/WEB-INF/*,*/node_modules/*
+set splitright
+set splitbelow
 
-call plug#begin('~/.vim/pluged')
+call plug#begin('~/.vim/plugged')
   Plug 'mattn/emmet-vim'
   Plug 'w0rp/ale'
   Plug 'pangloss/vim-javascript'
@@ -26,6 +34,7 @@ call plug#begin('~/.vim/pluged')
   Plug 'terryma/vim-multiple-cursors'
   Plug 'scrooloose/nerdtree'
   Plug 'altercation/vim-colors-solarized'
+  Plug 'vim-ruby/vim-ruby'
 call plug#end()
 
 let g:ctrlp_map = '<c-p>'

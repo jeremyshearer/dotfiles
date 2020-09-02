@@ -1,6 +1,6 @@
 [user]
   name = Jeremy Shearer
-  email = mohicanlove@gmail.com
+  email = jeremy.shearer@daveramsey.com 
 [core]
   editor = vim
 	excludesfile = ~/.gitignore
@@ -21,10 +21,22 @@
 	helper = osxkeychain
 #check that anything we're getting is complete and sane on a regular basis
 [transfer]
-  fsckobjects = true
+  fsckobjects = false
 [fetch]
-  fsckobjects = true
+  fsckobjects = false
 [receive]
   fsckObjects = true
 [diff]
-	compactionHeuristic = true
+  compactionHeuristic = true
+	tool = diffmerge
+[mergetool "diffmerge"]
+	cmd = "diffmerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$(if test -f \"$BASE\"; then echo \"$BASE\"; else echo \"$LOCAL\"; fi)\" \"$REMOTE\""
+	trustExitCode = true
+[difftool "diffmerge"]
+	cmd = diffmerge \"$LOCAL\" \"$REMOTE\"
+[merge]
+  tool = diffmerge
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
